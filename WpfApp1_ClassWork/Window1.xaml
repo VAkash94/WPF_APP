@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1_ClassWork.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_ClassWork"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Left" Height="215" Margin="219,80,0,0" VerticalAlignment="Top" Width="296">
+        <Label x:Name="lbl_FirstName" Content="First Name"/>
+        <TextBox x:Name="txt_fname" Height="23" TextWrapping="Wrap"/>
+        <Label x:Name="lbl_LastName" Content="Last Name"/>
+        <TextBox x:Name="txt_lname" Height="23" TextWrapping="Wrap"/>
+        <Button x:Name="btn_SendBack" Content="Send It Back" Click="btn_SendBack_Click"/>
+    </StackPanel>
+</Window>
